@@ -1,14 +1,13 @@
-import * as React from 'react';
-import Header from './Components/Hello'
+import * as React from 'react'
+import RouterApp from './Config/Router'
 
 class App extends React.Component {
   public render() {
     return (
-      <div className="App">
-        <Header />
-      </div>
-    );
+      <div className='App'>
+        <RouterApp />
+      </div>)
   }
 }
 
-export default App;
+export default App
