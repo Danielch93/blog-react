@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default ({ options }: any) => {
     return (
-        <div>
+        <div style={{background: 'blue'}}>
             {Object.keys(options).map((key: any, index: number) =>
                 <ul key={index}>
                     <li>
